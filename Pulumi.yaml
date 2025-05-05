@@ -1,0 +1,10 @@
+name: clickhouse-cluster
+description: Create a simple ClickHouse cluster
+runtime:
+  name: python
+  options:
+    toolchain: uv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python

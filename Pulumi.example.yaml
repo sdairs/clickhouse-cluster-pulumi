@@ -1,0 +1,8 @@
+encryptionsalt: v1:KzTkHZjPpsw=:v1:737xXNF02/9BestT:5aCZgiZxI37dOQwNx2NMAAJo9+68Kg==
+config:
+  aws:region: us-east-2
+  clickhouse-cluster:prefix: openhouse
+  clickhouse-cluster:cluster_size: 5
+  clickhouse-cluster:instance_type: m6i.4xlarge
+  clickhouse-cluster:dev_clickhouse_url: https://clickhouse-builds.s3.amazonaws.com/PRs/78921/154bf66660e3c4bdb6604c281f2e7460e7fe52f1/build_amd_release/clickhouse-server_25.5.1.1_amd64.deb
+  clickhouse-cluster:ssh_public_key_path: ~/.ssh/demo-public-key.pub

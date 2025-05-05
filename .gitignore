@@ -1,0 +1,5 @@
+*.pyc
+venv/
+Pulumi.*.yaml
+!Pulumi.example.yaml
+
